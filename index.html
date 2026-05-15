@@ -721,11 +721,12 @@
 .footer-top {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 12px;
+  align-items: center;    /* Horizontal centering */
+  justify-content: center; /* Vertical centering */
   text-align: center;
+  width: 100%;
+  gap: 15px;              /* Space between logo and text */
 }
-
 .footer-brand-name {
   color: #c5a059; /* Matching Gold */
   font-family: 'Cormorant Garamond', serif;
@@ -735,7 +736,7 @@
   letter-spacing: 2px;
   margin: 0;
 }
-    .footer-logo img { height: 52px; }
+    .footer-logo img { height: 72px; }
     .footer-tagline { font-size: 0.85rem; color: rgba(255,255,255,0.45); letter-spacing: 0.06em; }
     .footer-social { display: flex; gap: 12px; }
     .footer-social-link {
@@ -928,7 +929,7 @@
 
       <article class="service-card reveal" style="transition-delay:0.1s">
         <div class="service-img-placeholder">
-          <img src="postpregnancycare.jpeg" alt="Herbal Skin & Hair care" class="service-img">
+          <img src="skinhaircare.jpeg" alt="Herbal Skin & Hair care" class="service-img">
         </div>
         <div class="service-body">
           <h3>Herbal Skin & Hair care</h3>
