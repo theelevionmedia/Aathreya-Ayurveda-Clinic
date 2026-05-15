@@ -721,18 +721,16 @@
 .footer-top {
   display: flex;
   flex-direction: column;
-  align-items: center;    /* Horizontal centering */
-  justify-content: center; /* Vertical centering */
+  align-items: center; /* Centers children horizontally */
   text-align: center;
   width: 100%;
-  margin: 0 auto;
-  gap: 15px;              /* Space between logo and text */
 }
-    .footer-logo {
-  height: 120px;          /* Bigger size */
+
+.footer-logo {
+  height: 120px; /* Increased size */
   width: auto;
-  display: block;
-  margin: 0 auto;         /* Internal center */
+  display: block;   /* Allows margin auto to work */
+  margin: 0 auto;  /* Centers the image itself */
 }
 .footer-brand-name {
   color: #c5a059; /* Matching Gold */
